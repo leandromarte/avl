@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 	    ArvoreAvl a = new ArvoreAvl();
 		casoX(a);
-//	    a.printInOrder(a.raiz);
-	    a.printPosOrder(a.raiz);
+	    a.printInOrder(a.raiz);
+//	    a.printPosOrder(a.raiz);
     }
 
     private static void casoX(ArvoreAvl a) {
